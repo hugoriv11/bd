@@ -5,10 +5,6 @@
  */
 package vista;
 
-/**
- *
- * @author HugoJr. <Hugo Rivera at 00161417@uca.edu.sv>
- */
 import dao.EstudianteDao;
 import java.awt.*;
 import java.awt.event.ActionEvent;
