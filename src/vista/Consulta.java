@@ -204,13 +204,12 @@ public class Consulta extends JFrame {
                     estu.setEstado(false);
                 }
 
-                if (ed.update(estu)) {
+                if (ed.update(estu)) {//cambiar en metodo de Object Key a Generic g.
                     JOptionPane.showMessageDialog(null, "Estudiante modificado con exito");
                     limpiarCampos();
                     llenarTabla();
                 } else {
                     JOptionPane.showMessageDialog(null, "Ocurrio un problema al momento de modificar el estudiante");
-
                 }
             }
         });
