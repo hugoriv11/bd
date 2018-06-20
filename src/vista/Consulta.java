@@ -91,7 +91,7 @@ public class Consulta extends JFrame {
         apellido = new JTextField();
         nombre = new JTextField();
         si = new JRadioButton("si", true);
-        no = new JRadioButton("no");
+        no = new JRadioButton("no", false);
         
         resultados = new JTable();
         
